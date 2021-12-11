@@ -111,7 +111,7 @@ Feature:   We are using this feature to demo class
 #
 
 
-  @Hook
+  @Hook     @Parallel
   Scenario: Verify That the Hooks works fine
     Given The user wants to login website
     Then the user wants to verify that we can login

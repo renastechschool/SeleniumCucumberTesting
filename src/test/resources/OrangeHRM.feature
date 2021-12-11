@@ -118,7 +118,7 @@ Feature:  We are creating this feature file to add Orange HRM Scenarios
 
 
 
-  @PageObjectModel2
+  @PageObjectModel2  @Parallel
     Scenario: Verify that we can click all the checkboxes are available
       Given The user wants login as admin
       Then The user wants to verify dashboard
@@ -129,7 +129,7 @@ Feature:  We are creating this feature file to add Orange HRM Scenarios
 
 
 
-    @Scenario_Outline
+    @Scenario_Outline  @Parallel
     Scenario Outline:
       Given The user wants login as admin
       Then The user wants to verify dashboard
@@ -163,7 +163,7 @@ Feature:  We are creating this feature file to add Orange HRM Scenarios
 
 
 
-     @Excel
+     @Excel   @Parallel
     Scenario: Verify that we can login with excel data
       Given the user wants to login with excel
 #      Then The user wants to verify dashboard
