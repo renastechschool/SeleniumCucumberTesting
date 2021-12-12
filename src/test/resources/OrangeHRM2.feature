@@ -1,7 +1,7 @@
 Feature:
 
 
-  @Smoke_Testing   @Parallel
+  @Smoke_Testing34   @Parallel
   Scenario:
     Given The user wants to go to orangeHRM application
     When The user wants to login orange HRM
@@ -15,6 +15,6 @@ Feature:
       |FirstName|Tom123  |
       |LastName |Jerry123|
     Then The user wants to save the information
-    Then The user should be able to see "Personal Details"
+#    Then The user should be able to see "Personal Details"
 
 

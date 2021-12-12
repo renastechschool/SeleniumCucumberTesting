@@ -1,0 +1,37 @@
+Can you tell me about you framework?
+  -Java Maven Selenium webdriver Cucumber Gherkin JUnit
+  -Our Framework is Hybrid Framework --  > BDD + DDD(DDT)
+  -Base on POM ->
+  -We are creating Scenarios in feature file
+  -We create configuration properties in order to save data such as username password ...
+  -Runner Class in order to run specific Scenario
+  -We have Log4j to identify issue easly
+  -We have common utils to reuse some method in order to make code efficient and readable
+  -we have driver class design base on Singleton
+  -We are creating Scenario outline to use Data Driven Testing
+
+What are advantage of Cucumber ?
+ - Readable
+ - Reusable
+ - Efficent
+ - easy to understand
+
+What is Gherkin lang?
+Can you tell me about Cucumber Options ?
+
+How do you execute cucumber scenarios ?
+
+
+What are hooks Class ? What does hook class do ?
+
+how do we do parametrization in cucumber ?
+
+How to report ?
+How do you run cucumber with JUnit ?
+
+what happen if run without tag ?
+
+how do you implement Scenario outline ?
+
+what is cucumber workflow ?
+

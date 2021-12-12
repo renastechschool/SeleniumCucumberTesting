@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features ="src/test/resources",
         glue = "renastech.Steps_Definitions",
-        tags = "@Parallel",
+        tags = "@Smoke_Testing34",
         dryRun= false,             // it will check if there is undifianed staps definitions
         plugin ={  "pretty",
                     "html:target/default-cucumber-reports.html",
